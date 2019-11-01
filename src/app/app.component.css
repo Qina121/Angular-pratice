@@ -1,0 +1,19 @@
+nav a{
+    margin: 20px 50px;
+    color: #fff;
+    text-decoration: none;
+}
+nav{
+    margin-bottom: 20px;
+    background-color: teal;
+    color: #fff;
+    line-height: 40px;
+    font-size: 22px;
+}
+.btn{
+    width: 270px;
+    text-align: center;
+    height: 40px;
+    background: palegoldenrod;
+    line-height: 40px;
+}

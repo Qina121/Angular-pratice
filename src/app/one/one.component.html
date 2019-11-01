@@ -1,0 +1,9 @@
+<h3>列表名单</h3>
+<ul>
+  <li *ngFor='let item of data;let _index=index'>
+    <div>
+      <app-listdetail [item] = item [serial]="1"></app-listdetail>
+    </div>
+  </li>
+</ul>
+

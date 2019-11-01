@@ -1,0 +1,23 @@
+p{
+    text-align: center;
+}
+nz-progress {
+    margin-right: 8px;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+[nz-carousel-content] {
+    text-align: center;
+    /* height: 360px;
+    line-height: 360px; */
+    background: #364d79;
+    color: #fff;
+    overflow: hidden;
+}
+h3 {
+    color: #fff;
+  }
+  img{
+      background-size: 100%;
+      width: 100%;
+  }

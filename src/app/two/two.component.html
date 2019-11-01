@@ -1,0 +1,24 @@
+<p style="font-size:66px;text-align: center;">
+  THIS IS TWO WORK
+</p>
+<form nz-form>
+  <nz-form-item>
+    <nz-form-label [nzSpan]="6" nzFor="email">E-mail</nz-form-label>
+    <nz-form-control [nzSpan]="14">
+      <input nz-input name="email" type="email" id="email">
+    </nz-form-control>
+  </nz-form-item >
+</form>
+
+<!-- <nz-progress [nzPercent]="percent" nzType="circle"></nz-progress>
+    <nz-button-group>
+      <button nz-button (click)="decline()"><i nz-icon type="minus">-</i></button>
+      <button nz-button (click)="increase()"><i nz-icon type="plus">+</i></button>
+    </nz-button-group> -->
+
+    <div style="width:1355px;margin: 0 auto">
+      <nz-carousel [nzEffect]="'fade'" [nzAutoPlay]=true>
+        <div nz-carousel-content *ngFor="let item of array"><img src="{{item.src}}"/></div>
+      </nz-carousel>
+    </div>
+    
